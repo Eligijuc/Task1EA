@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/btnchangetxt"
-        android:layout_width="134dp"
-        android:layout_height="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="ChangeMainTxt"
         android:text="Conquer"
         android:textColorLink="#9C27B0"
@@ -29,19 +29,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.831" />
-
-    <Button
-        android:id="@+id/btnchangecolor"
-        android:layout_width="104dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="8dp"
-        android:onClick="ChangeTxtColor"
-        android:text="Color"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvmain"
-        app:layout_constraintVertical_bias="0.302" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
